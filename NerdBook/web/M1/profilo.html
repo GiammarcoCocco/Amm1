@@ -6,11 +6,61 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Il tuo profilo - NerdBook</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" 
+              content="width=device-width,
+                       initial-scale=1.0">
+        <meta name="author"
+              content="Giammarco Cocco">
+        <meta name="keywords"
+              content="info social nerd ">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div id="header">
+
+            <h1>NerdBook</h1>
+            <p>Il social asociale</p>
+        </div>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="bacheca.html">Home</a>
+            <a href="descrizione.html">Benvenuto</a>
+        </nav>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" name="name"id="name" value="inserisci il tuo nome" />
+            
+            <br/>
+            
+            <label for="cognome">Cognome:</label>
+            <input type="text" name="cognome"id="cognome" value="inserisci il tuo nome" />
+            
+            <br/>
+            
+            <label for="propic">Url immagine profilo:</label>
+            <input type="url" name="propic"id="propic" value="http://" />
+            
+            <br/>
+            
+            <label for="bio">frase di presentazione</label>
+            <textarea rows="6" cols="21" name= "bio" id= "bio" value="">
+            </textarea>
+            
+            <br/>
+            
+            <label for="data">Data di nascita:</label>
+            <input type="date" name="data" id="data" />
+            
+            <br/>
+            
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" />
+            
+            <br/>
+            
+            <label for="passwordconf">Conferma password:</label>
+            <input type="password" name="passwordconf" id="passwordconf" />
+        </form>
     </body>
 </html>

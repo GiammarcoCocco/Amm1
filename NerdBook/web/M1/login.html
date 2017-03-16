@@ -13,19 +13,27 @@ inserite le metainformazioni sulla pagina e validatela
         <meta charset="UTF-8">
         <meta name="viewport" 
               content="width=device-width,
-              initial-scale=1.0">
+                       initial-scale=1.0">
         <meta name="author"
               content="Giammarco Cocco">
         <meta name="keywords"
               content="info social nerd programmazione login">
     </head>
     <body>
-
-            <form action="login.asp" method="get">
+        <div id="header">
+            <h1>NerdBook</h1>
+            <p>Il social asociale</p>
+        </div>
+        <nav>
+            <a href="bacheca.html">Home</a>
+            <a href="profilo.html">Profilo</a>
+            <a href="descrizione.html">Benvenuto</a>
+        </nav>
+        <form action="login.asp" method="get">
             <label for="username">Username:</label>
             <input type="text" name="username"id="username" value="inserisci l'username..." />
             <label for="password">Password</label>
-            <input type="password" name="password"id="password" value="" />
+            <input type="password" name="password"id="password" value=""/>
         </form>
     </body>
 </html>
