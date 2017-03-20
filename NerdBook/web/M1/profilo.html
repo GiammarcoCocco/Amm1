@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+Task 6
+Create un form per l’inserimento dei dati del profilo all’interno della pagina profilo.html. Il form deve richiedere all’utente le seguenti informazioni, utilizzando le tipologie di input corrette:
+Nome dell’utente
+Cognome dell’utente
+URL di una immagine per il profilo
+Frase di presentazione
+Data di nascita
+Password
+Conferma password
+
 -->
 <html>
     <head>
@@ -28,39 +35,40 @@ and open the template in the editor.
             <a href="descrizione.html">Benvenuto</a>
         </nav>
         <form>
-            <label for="name">Nome:</label>
-            <input type="text" name="name"id="name" value="inserisci il tuo nome" />
-            
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" value="inserisci il tuo nome" />
+            </div>
             <br/>
-            
-            <label for="cognome">Cognome:</label>
-            <input type="text" name="cognome"id="cognome" value="inserisci il tuo nome" />
-            
+            <div>
+                <label for="cognome">Cognome:</label>
+                <input type="text" name="cognome" id="cognome" value="inserisci il tuo nome" />
+            </div>
             <br/>
-            
-            <label for="propic">Url immagine profilo:</label>
-            <input type="url" name="propic"id="propic" value="http://" />
-            
+            <div>
+                <label for="propic">Url immagine profilo:</label>
+                <input type="url" name="propic" id="propic"/>
+            </div>
             <br/>
-            
-            <label for="bio">frase di presentazione</label>
-            <textarea rows="6" cols="21" name= "bio" id= "bio" value="">
-            </textarea>
-            
+            <div>
+                <label for="bio">frase di presentazione</label>
+                <textarea rows="6" cols="21" name= "bio" id= "bio"></textarea>
+            </div>
             <br/>
-            
-            <label for="data">Data di nascita:</label>
-            <input type="date" name="data" id="data" />
-            
+            <div>
+                <label for="data">Data di nascita:</label>
+                <input type="date" name="data" id="data" />
+            </div>
             <br/>
-            
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" />
-            
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" />
+            </div>
             <br/>
-            
-            <label for="passwordconf">Conferma password:</label>
-            <input type="password" name="passwordconf" id="passwordconf" />
+            <div>
+                <label for="passwordconf">Conferma password:</label>
+                <input type="password" name="passwordconf" id="passwordconf" />
+            </div>
         </form>
     </body>
 </html>
