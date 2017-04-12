@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Task 4
+Inserire all’interno della pagina di login.html un form per richiedere username e password all’utente, utilizzando i campi di input corretti. 
+
+Create una sezione di navigazione che permetta di raggiungere la pagina descrizione.html, profilo.html e bacheca.html.
+
+Inserite le metainformazioni sulla pagina e validatela. 
+-->
+
+<html>
+    <head>
+        <title>NerdBook Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+              content="width=device-width,
+                       initial-scale=1.0">
+        <meta name="author"
+              content="Giammarco Cocco">
+        <meta name="keywords"
+              content="info social nerd programmazione login">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+    <body>
+        <header>
+            <div id = "title">
+                <h1>NerdBook</h1>
+                <p>Il social asociale</p>
+            </div>
+            <nav class="barra">
+                <ol>
+                    <a href= "bacheca.html">Home</a>
+                    <a href="login.html" class= "active">Login</a>
+                    <a href="profilo.html">Profilo</a>
+                    <a href="descrizione.html">Benvenuto</a>
+                </ol>
+            </nav>
+        </header>
+        <div id="login">
+            <form action = "login.asp" method = "post">
+                <div class="campo">
+                    <label for = "username">Username</label>
+                    <input type = "text" name="username" id = "username" value = "inserisci l'username..." />
+                </div>
+                <p></p>
+                <div class="campo">
+                    <label for = "password">Password</label>
+                    <input type = "password" name="password" id = "password" value = ""/>
+                </div>
+                <button type="submit">Accedi</button>
+            </form>
+        </div>
+    </body>
+</html>

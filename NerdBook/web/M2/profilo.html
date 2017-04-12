@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+Task 6
+Create un form per l’inserimento dei dati del profilo all’interno della pagina profilo.html. Il form deve richiedere all’utente le seguenti informazioni, utilizzando le tipologie di input corrette:
+Nome dell’utente
+Cognome dell’utente
+URL di una immagine per il profilo
+Frase di presentazione
+Data di nascita
+Password
+Conferma password
+
+-->
+<html>
+    <head>
+        <title>Il tuo profilo - NerdBook</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+              content="width=device-width,
+                       initial-scale=1.0">
+        <meta name="author"
+              content="Giammarco Cocco">
+        <meta name="keywords"
+              content="info social nerd ">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+    <body>
+        <header>
+            <div id= "title">
+                <h1>NerdBook</h1>
+                <p>Il social asociale</p>
+            </div>
+        </header>
+        <nav class="barra">
+            <ol>
+                <a href= "bacheca.html">Home</a>
+                <a href="login.html" >Login</a>
+                <a href="profilo.html" class= "active">Profilo</a>
+                <a href="descrizione.html">Benvenuto</a>
+            </ol>
+        </nav>
+        <div class = "sezione">
+            <form id= "profilo">
+                <div class="campo">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" value="inserisci il tuo nome" />
+                </div>
+                <div class="campo">
+                    <label for="cognome">Cognome:</label>
+                    <input type="text" name="cognome" id="cognome" value="inserisci il tuo cognome" />
+                </div>
+                <div class="campo">
+                    <label for="propic">Url immagine profilo:</label>
+                    <input type="url" name="propic" id="propic"/>
+                </div>
+                <div class="campo" >
+                    <label for="bio">frase di presentazione</label>
+                    <textarea name= "bio" id= "bio">Scrivi qui</textarea>
+                </div>
+                <div class="campo">
+                    <label for="data">Data di nascita:</label>
+                    <input type="date" name="data" id="data" />
+                </div>
+                <div class="campo">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" />
+                </div>
+                <div class="campo">
+                    <label for="passwordconf">Conferma password:</label>
+                    <input type="password" name="passwordconf" id="passwordconf" />
+                </div>
+                <button type="submit">Accedi</button>
+            </form>
+        </div>
+    </body>
+</html>

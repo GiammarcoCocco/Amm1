@@ -1,0 +1,97 @@
+body{
+    background-color:aliceblue;
+    font: 19px/25px "Segoe UI", Arial, sans-serif;
+}
+
+#title p{
+    margin-top: 0px;
+    font: 20px/27px "Consolas";    
+}
+
+#title{
+    position:fixed;
+    background-color:blueviolet;
+    top: .2%;
+    left: .1%; 
+    right: .1%;
+    bottom: 87%;
+    
+}
+
+h1{
+    color:#440088;
+    font: 180% "Segoe UI", Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    right: 20%;
+}
+
+h2{
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-top: 30px
+}
+
+h3{
+    font-weight: 500;
+    font-size: 30px;
+    color: #44AA33;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: 2%
+}
+
+.sezione p{
+    margin-left: 4%;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+a:link{
+    text-decoration: underline;
+    color: blue;
+    font-weight: 500
+}
+
+a:visited{
+    text-decoration: underline;
+    color:blueviolet;
+    font-weight: 500
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+
+.profilepic{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 2%;
+}
+
+
+
+nav ol{
+    text-decoration: none;    
+}
+
+nav .active{
+    text-decoration:none;
+}
+
+.barra{
+    background-color: aqua;
+    position: fixed;
+    top:inherit;
+    bottom: inherit;
+    left; 50%;
+    right: .1px
+    
+}
+
+nav a:visited{
+    color: blue;
+}

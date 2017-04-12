@@ -1,0 +1,172 @@
+body{
+    background-color:aliceblue;
+    font: 19px/25px "Segoe UI", Arial, sans-serif;
+}
+
+    #title{
+        background-color:cornflowerblue;
+        padding-top: 3px;
+        top: 0px;
+        left: 1px; 
+        right: 1px;
+    }
+
+    #title h1 {
+        color:darkblue;
+        font-size: 200%;
+        font-size-adjust: auto;
+        margin-bottom: 1px;
+        margin-top: 0px;
+        right: 0px;
+    }
+
+    #title p{
+        margin-top: 1px;
+        margin-bottom: 0px;
+        font: 20px/27px "Consolas"; 
+    }
+
+.barra{
+    background-color:darkcyan;
+    padding-right: 50px;
+    padding-left: 30px;
+    right: .1%;
+    left: .1%;
+    text-align-last: justify;
+    }
+
+    .barra ol{
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    nav a:hover{
+        color: white;
+    }
+
+    .active{
+        text-decoration: underline;
+    }
+
+.sezione, .textpost, .imgpost, .urlpost{
+    border-radius: 15px;
+    background-color: lightgray;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    margin-bottom: 9px;
+
+}
+
+    .sezione h2{
+        font-weight: bold;
+        color:crimson;
+        margin-bottom: 5px;
+        margin-top: 10px
+    }
+
+    .sezione h3{
+        font-weight: 500;
+        font-size: 30px;
+        color: #44AA33;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        margin-left: 2%
+    }
+
+
+    .sezione p{
+        margin-left: 4%;
+        margin-top: 5px;
+        margin-bottom: 3px;
+        font: 18px/24px "consolas", Arial, sans-serif;
+    }
+
+
+
+a:hover{
+    font-weight: bold;
+}
+
+
+
+.profilepic{
+    position: relative;
+    top: -50px;
+    left:15px;
+    height: 60px;
+    width: 60px;
+    margin-bottom: -40px;
+    border-radius: 30px;
+    
+}
+
+.name{
+    position:relative;
+    left:80px
+}
+
+.textpost p{
+    margin-top: 0px;
+    padding-left: 30px;
+    
+}
+
+.sharedimg{
+    border-radius: 20px;
+    padding-left: 30px;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.urlpost a{
+    padding-left:30px;
+}
+
+#login{
+    font-weight: bold;
+    left: 80px;
+    right: 80px;
+    border-radius: 15px;
+    background-color: lightgray;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+    #login #uname{
+    padding:20px;;
+    }  
+
+    form .campo{
+        left:140px;
+        margin:20px;
+    }
+    #login button{
+        width: 100%
+    }
+
+form input{
+    position:absolute;
+    left:220px;
+    width: 220px;
+    height: 20px
+}
+
+textarea{
+    width: 215px;
+    height: 50px;
+}
+
+
+
+
